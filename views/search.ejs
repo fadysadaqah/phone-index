@@ -1,0 +1,17 @@
+<%include partials/header.ejs%>
+<style>
+    .reg {
+        font-family: Righteous;
+        color: white !important;
+    }
+</style>
+<div class="main_div">
+    <form action="/register" method="POST">
+        <img style="display: block;margin:auto;width:200px;"
+            src="http://getdrawings.com/free-icon/phone-icon-png-transparent-70.png">
+
+        <input name="search" class="form-control" placeholder="search by name or phone number" type="text">
+        <Button class=" reg btn btn-block btn-warning" type="submit">Search</Button>
+    </form>
+</div>
+<%include partials/footer.ejs%>

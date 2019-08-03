@@ -1,0 +1,23 @@
+<%include partials/header.ejs%>
+<style>
+    .btn_home {
+        color: white !important;
+        font-family: Righteous;
+        margin: 5px 0;
+    }
+
+    #logo {
+        display: block;
+        margin: auto;
+        width: 200px;
+        margin-bottom: 50px;
+    }
+</style>
+<div class="main_div">
+    <img id="logo" src="http://getdrawings.com/free-icon/phone-icon-png-transparent-70.png" alt="">
+    <a href="/signup"> <button class="btn btn-block btn-warning btn_home">Register</button> </a>
+    <a href="/signin"> <button class="btn btn-block btn-warning btn_home">Sign in</button> </a>
+    <a href="/search"> <button class="btn btn-block btn-warning btn_home">Search in phone index</button> </a>
+    <a href="/add"> <button class="btn btn-block btn-warning btn_home">Add a new phone number</button> </a>
+</div>
+<%include partials/footer.ejs%>
